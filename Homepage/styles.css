@@ -1,0 +1,128 @@
+@Font-face{
+    font-family:"myFont";
+    src:url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+} 
+
+body{
+    background-color: #020130; 
+    font-family: 'poppins';    
+}
+
+img{
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    /* width: 1600px;
+    height: 398px; */
+    width:100%;
+    height:auto;
+    /* top: 300px; */
+    max-width: 1200pt;
+    max-height: 250pt;
+    top: 20pt;
+
+}
+
+h1{
+    margin: 5pt;
+    text-align: center;
+    padding:0pt;
+    font-family: 'poppins';
+    font-size: 90pt;
+    color: white;
+    font-weight: bold;
+    line-height: 50pt;
+}
+ h4{
+    margin-bottom: 0pt;
+    padding-top: 80pt;
+    padding-bottom: 0pt;
+    text-align: center;
+    font-size: 18pt;
+    color: white;
+ }
+
+#container{
+    /* background-color: aliceblue; */
+    align-content: center;
+
+}
+
+#sub-container{
+     position: relative;
+    color: white;
+    margin-left: 350pt;
+    margin-right: 450pt;
+    margin-top: 28pt;
+    display: grid;
+    grid-template-columns: 280pt 1fr ;
+    grid-template-rows: 60px 1fr;
+    align-items: center; 
+    /* position: relative;
+    color: white;
+    margin-top: 28pt;
+    display: grid;
+    grid-template-columns: 250pt 1fr ;
+    grid-template-rows: 60px 1fr;
+    align-items: center;
+    max-height:50pt ;
+    max-width:500pt ; */
+    
+    
+    
+
+
+}
+
+#sub-container p{
+    text-align: left;
+    padding-bottom: 0pt;
+}
+
+#sub-container button{
+    height: 40pt;
+    width: 120pt;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 600;
+    margin-left: 10pt;
+    background: #2F2ACF;
+    border-radius: 6pt;
+}
+
+h5{
+    font-size: 16pt;
+    text-align: center;
+}
+
+/* normal sign-in button */
+/* #header button{
+    box-sizing: border-box;
+    border: 1pt solid #FFFFFF;
+    border-radius: 4pt;
+    position: absolute;
+    width: 80pt;
+    height: 26pt;
+    left: 1000pt;
+    top: 5pt;
+    font-size: 14pt;
+    font-weight: 600;
+    background-color: #030242;
+} */
+
+/* Google sign-in button  */
+#header .g-signin2{
+    /* box-sizing: border-box; */
+    /* border: 1pt solid #FFFFFF; */
+    /* border-radius: 4pt; */
+    position: absolute;
+    width: 80pt;
+    height: 26pt;
+    left: 1050pt;
+    top: 10pt;
+    font-size: 14pt;
+    font-weight: 600;
+    background-color: #030242;
+}
+
+

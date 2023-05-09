@@ -1,0 +1,29 @@
+@Font-face{
+    font-family:"myFont";
+    src:url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+} 
+
+body {
+    background-color: #030242;
+    font-family: 'poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position:relative;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top:10pt;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
