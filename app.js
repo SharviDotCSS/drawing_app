@@ -1,4 +1,10 @@
-gapi.load('auth2', function() {
+// gapi.load('auth2', function() {
+//     gapi.auth2.init({
+//       client_id:'779111387364-03s1ba8si7hdj8fhvlrj876t2kn01am1.apps.googleusercontent.com'
+//     });
+//   });
+
+  gapi.load('auth2', function() {
     gapi.auth2.init({
       client_id:'779111387364-03s1ba8si7hdj8fhvlrj876t2kn01am1.apps.googleusercontent.com'
     });
